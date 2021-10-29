@@ -4,6 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        fontFamily: {
+          "noto-sans": ["Noto Sans", "sans-serif"],
+          "noto-sans-bold": ["Noto Sans", "sans-serif"],
+        },
         gray: {
           100: "#f7fafc",
           200: "#edf2f7",
