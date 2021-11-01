@@ -3,11 +3,11 @@ module.exports = {
   darkMode: false, // or "media" or "class"
   theme: {
     extend: {
+      fontFamily: {
+        "noto-sans": ["Noto Sans", "sans-serif"],
+        "noto-sans-bold": ["Noto Sans", "sans-serif"],
+      },
       colors: {
-        fontFamily: {
-          "noto-sans": ["Noto Sans", "sans-serif"],
-          "noto-sans-bold": ["Noto Sans", "sans-serif"],
-        },
         gray: {
           100: "#f7fafc",
           200: "#edf2f7",
