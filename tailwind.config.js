@@ -7,6 +7,7 @@ module.exports = {
         "noto-sans": ["Noto Sans", "sans-serif"],
         "noto-sans-bold": ["Noto Sans", "sans-serif"],
         "druk-bold": ["Druk"],
+        "syne-bold": ["Syne Bold"],
       },
       colors: {
         gray: {

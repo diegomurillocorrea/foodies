@@ -7,4 +7,9 @@
         font-family: "Druk";
         src: url("../public/fonts/druk-bold.ttf") format("truetype");
     }
+
+    @font-face {
+        font-family: "Syne Bold";
+        src: url("../public/fonts/syne-bold.ttf") format("truetype");
+    }
 }
