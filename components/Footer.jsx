@@ -1,35 +1,59 @@
 const Footer = () => {
     return (
         <div>
-            <div>
-                <div>
+            <div className="flex flex-col items-center justify-center text-center space-y-5">
+                <div className="space-y-5 border-b-2 border-yellow-500 py-5">
                     <div>
-                        <p></p>
+                        <p className="font-druk-bold text-dark-350 text-3xl">
+                            Foodies
+                        </p>
                     </div>
-                    <div>
+                    <div className="flex items-center justify-between -space-x-10">
                         <div>
-                            <img src="" alt="" />
+                            <button
+                                className="w-9/12 focus:outline-none"
+                            >
+                                <img
+                                    src="../img/apple-store.png" alt="Apple store image"
+                                />
+                            </button>
                         </div>
                         <div>
-                            <img src="" alt="" />
+                            <button
+                                className="w-9/12 focus:outline-none"
+                            >
+                                <img
+                                    src="../img/play-store.png" alt="Play store image"
+                                />
+                            </button>
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className="space-y-5 text-gray-600 text-lg">
                     <div>
-                        <p></p>
+                        <a>
+                            Conoce nuestras sucursales
+                        </a>
                     </div>
                     <div>
-                        <p></p>
+                        <a>
+                            Acerca de
+                        </a>
                     </div>
                     <div>
-                        <p></p>
+                        <a>
+                            Conoce nuestras sucursales
+                        </a>
                     </div>
                     <div>
-                        <p></p>
+                        <a>
+                            ¿Qué hablan de nosotros?
+                        </a>
                     </div>
                     <div>
-                        <p></p>
+                        <a>
+                            Contáctanos
+                        </a>
                     </div>
                 </div>
             </div>
