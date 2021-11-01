@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         "noto-sans": ["Noto Sans", "sans-serif"],
         "noto-sans-bold": ["Noto Sans", "sans-serif"],
+        "druk-bold": ["Druk"],
       },
       colors: {
         gray: {
