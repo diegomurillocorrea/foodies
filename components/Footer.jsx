@@ -2,7 +2,7 @@ const Footer = () => {
     return (
         <div>
             <div className="flex flex-col items-center justify-center text-center space-y-5">
-                <div className="space-y-5 border-b-2 border-yellow-500 py-5">
+                <div className="space-y-5 border-b-2 border-yellow-500 py-5 md:flex md:space-y-0 md:justify-between md:items-center">
                     <div>
                         <p className="font-druk-bold text-dark-350 text-3xl">
                             Foodies
