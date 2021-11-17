@@ -44,8 +44,7 @@ const NavBar = ({ navBarColor }) => {
                     </a>
                 </div>
                 <div className="xl:block hidden">
-                    <Links
-                        classes="flex space-x-10"
+                    <Links classes="flex space-x-10"
                     />
                 </div>
                 <div className="xl:hidden">
