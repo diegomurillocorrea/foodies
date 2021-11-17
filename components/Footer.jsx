@@ -3,7 +3,7 @@ import Button from "./Button";
 const Footer = () => {
     return (
         <div>
-            <div className="flex flex-col items-center justify-center text-center space-y-5 md:items-stretch md:px-5 mx-auto max-w-screen-2xl">
+            <div className="flex flex-col items-center justify-center text-center space-y-5 md:items-stretch md:px-5 mx-auto max-w-screen-2xl pt-10 pb-16">
                 <div className="space-y-5 border-b-2 border-yellow-500 py-5 md:flex md:space-y-0 md:justify-between md:items-center xl:pl-14 xl:pr-0">
                     <div className="md:pl-5">
                         <p className="font-druk-bold text-dark-350 text-3xl">

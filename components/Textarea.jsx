@@ -1,4 +1,4 @@
-const Input = ({ containerClasses, id, label, name, type, classes, onChange, placeholder }) => {
+const Textarea = ({containerClasses, id, label, name, classes, onChange, placeholder, children}) => {
     return (
         <div className={containerClasses}>
             <div>
@@ -7,17 +7,18 @@ const Input = ({ containerClasses, id, label, name, type, classes, onChange, pla
                 </label>
             </div>
             <div>
-                <input
+                <textarea
                     id={id}
                     name={name}
-                    type={type}
                     className={`${classes} focus:outline-none focus:border-yellow-500 focus:text-yellow-500 focus:placeholder-yellow-500 duration-300 ease-in-out`}
                     onChange={onChange}
                     placeholder={placeholder}
-                />
+                >
+                    {children}
+                </textarea>
             </div>
         </div>
     );
 };
 
-export default Input;
+export default Textarea;
