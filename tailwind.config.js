@@ -3,6 +3,19 @@ module.exports = {
   darkMode: false, // or "media" or "class"
   theme: {
     extend: {
+      keyframes: {
+        bouncer: {
+          "50%": {
+            transform: "translateX(25%)",
+          },
+          "0%, 100%": {
+            transform: "translateX(0)",
+          },
+        },
+      },
+      animation: {
+        bouncer: "bouncer 1s ease-in-out infinite",
+      },
       fontFamily: {
         "noto-sans": ["Noto Sans", "sans-serif"],
         "noto-sans-bold": ["Noto Sans", "sans-serif"],
@@ -81,7 +94,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      animation: ["group-hover"],
+    },
   },
   plugins: [],
 }
