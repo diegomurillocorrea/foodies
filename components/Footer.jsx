@@ -1,17 +1,16 @@
 const Footer = () => {
     return (
         <div>
-            <div className="flex flex-col items-center justify-center text-center space-y-5">
-                <div className="space-y-5 border-b-2 border-yellow-500 py-5 md:flex md:space-y-0 md:justify-between md:items-center">
-                    <div>
+            <div className="flex flex-col items-center justify-center text-center space-y-5 md:items-stretch md:px-5 mx-auto max-w-screen-2xl">
+                <div className="space-y-5 border-b-2 border-yellow-500 py-5 md:flex md:space-y-0 md:justify-between md:items-center xl:pl-14 xl:pr-0">
+                    <div className="md:pl-5">
                         <p className="font-druk-bold text-dark-350 text-3xl">
                             Foodies
                         </p>
                     </div>
                     <div className="flex items-center justify-between -space-x-10">
                         <div>
-                            <button
-                                className="w-9/12 focus:outline-none"
+                            <button className="w-9/12 focus:outline-none hover:opacity-90 duration-300 ease-in-out"
                             >
                                 <img
                                     src="../img/apple-store.png" alt="Apple store image"
@@ -19,8 +18,7 @@ const Footer = () => {
                             </button>
                         </div>
                         <div>
-                            <button
-                                className="w-9/12 focus:outline-none"
+                            <button className="w-9/12 focus:outline-none hover:opacity-90 duration-300 ease-in-out"
                             >
                                 <img
                                     src="../img/play-store.png" alt="Play store image"
@@ -29,7 +27,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="space-y-5 text-gray-600 text-lg">
+                <div className="space-y-5 text-gray-600 text-lg md:grid md:grid-cols-3 md:space-y-0 md:gap-5 md:px-8 md:text-base xl:text-xl xl:flex xl:pl-20 xl:space-x-8">
                     <div>
                         <a>
                             Conoce nuestras sucursales
@@ -45,7 +43,7 @@ const Footer = () => {
                             Conoce nuestras sucursales
                         </a>
                     </div>
-                    <div>
+                    <div className="md:text-left lg:text-center">
                         <a>
                             ¿Qué hablan de nosotros?
                         </a>
