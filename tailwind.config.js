@@ -3,11 +3,26 @@ module.exports = {
   darkMode: false, // or "media" or "class"
   theme: {
     extend: {
-      colors: {
-        fontFamily: {
-          "noto-sans": ["Noto Sans", "sans-serif"],
-          "noto-sans-bold": ["Noto Sans", "sans-serif"],
+      keyframes: {
+        bouncer: {
+          "50%": {
+            transform: "translateX(25%)",
+          },
+          "0%, 100%": {
+            transform: "translateX(0)",
+          },
         },
+      },
+      animation: {
+        bouncer: "bouncer 1s ease-in-out infinite",
+      },
+      fontFamily: {
+        "noto-sans": ["Noto Sans", "sans-serif"],
+        "noto-sans-bold": ["Noto Sans", "sans-serif"],
+        "druk-bold": ["Druk"],
+        "syne-bold": ["Syne Bold"],
+      },
+      colors: {
         gray: {
           100: "#f7fafc",
           200: "#edf2f7",
@@ -67,6 +82,7 @@ module.exports = {
           100: "#EAEBEC",
           200: "#CACCD0",
           300: "#A9ADB3",
+          350: "#7B7B7B",
           400: "#69707A",
           500: "#293241",
           600: "#252D3B",
@@ -78,7 +94,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      animation: ["group-hover"],
+    },
   },
   plugins: [],
 }
