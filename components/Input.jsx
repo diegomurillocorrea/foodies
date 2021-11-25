@@ -11,7 +11,16 @@ const Input = ({ containerClasses, id, label, name, type, classes, onChange, pla
                     id={id}
                     name={name}
                     type={type}
-                    className={`${classes} focus:outline-none focus:border-yellow-500 focus:text-yellow-500 focus:placeholder-yellow-500 duration-300 ease-in-out`}
+                    className={`${classes} 
+                                focus:outline-none 
+                                focus:ring-offset-0 
+                                focus:ring-0 
+                                focus:border-yellow-500 
+                                focus:text-yellow-500 
+                                focus:placeholder-yellow-500 
+                                duration-300 
+                                ease-in-out
+                            `}
                     onChange={onChange}
                     placeholder={placeholder}
                 />
